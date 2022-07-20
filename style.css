@@ -1,0 +1,97 @@
+* {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    overflow: hidden;
+}
+
+.container {
+    background-color: rgb(212, 175, 169);
+    display: flex;
+    margin:10px auto;
+    width: 400px;
+    flex-direction: column;
+    
+
+}
+.container h1 {
+ display: flex;
+ justify-content: center;
+ margin: 20px;
+ color:rgb(26, 25, 25);
+}
+.inputValue {
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+}
+.todoListItem {
+    border-radius: 15px;
+    margin-top:30px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    overflow-y: scroll;
+    max-height: 400px;
+
+}
+.inputVal{
+    padding: 8px 7px;
+    width: 270px;
+    border: none;
+    outline: none;
+}
+.btn {
+    padding: 8px 10px;
+    background-color: rgb(202, 201, 201);
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+.clearDiv {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.clearTask{
+    margin-top: 25px;
+    margin-bottom: 25px;
+    width: 250px;
+    height: 35px;
+    text-align: center;
+    background-color: coral;
+    color: #fff;
+    border: none;
+    font-size: 18px; 
+}
+.todoList{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+    align-items: center;
+    background: #ffffff;
+    padding: 5px;
+    border-bottom: 1px solid gray;
+    border-radius: 5px;
+    height: 40px;
+    box-shadow: 5px 5px rgb(0, 0, 1, 0.2);
+    flex-wrap: wrap;
+    width: 280px;
+}
+.deleteTask{
+    cursor: pointer;
+    width: 25px;
+    height: 25px;
+    text-align: center;
+    border-radius: 50%;
+    background-color: rgb(250, 118, 70);
+    color: #ffffff;
+    outline: none;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    border: 1px solid rgb(99, 99, 99)
+}
